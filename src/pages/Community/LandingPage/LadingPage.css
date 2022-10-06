@@ -1,0 +1,14 @@
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.writing_title {
+  color: black;
+}
+
+tbody tr:hover {
+  background-color: #d2dae2;
+}

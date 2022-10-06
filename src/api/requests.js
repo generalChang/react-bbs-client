@@ -1,0 +1,41 @@
+const requests = {
+  base_url:
+    process.env.NODE_ENV == "production"
+      ? "https://react-bbs-server.herokuapp.com"
+      : "http://localhost:5000",
+  api_user: "api/user",
+  login: "login",
+  register: "register",
+  profile_update: "profile/update",
+  auth: "auth",
+  logout: "logout",
+  email_certificate: "email/certificate",
+  tmp_password: "tmp/password",
+  set_tmp_password: "set/tmpPassword",
+  update_password: "update/password",
+  api_community: "api/community",
+  make_community: "make/community",
+  communitys: "communitys",
+  community: "community",
+  community_update: "community/update",
+  image: "image",
+  api_writing: "api/writing",
+  upload_images: "uploadImages",
+  upload_writing: "upload/writing",
+  writings: "writings",
+  writing: "writing",
+  view: "view",
+  upview: "upview",
+  api_comment: "api/comment",
+  save_comment: "save/comment",
+  comments: "comments",
+  api_like: "api/like",
+  uplike: "uplike",
+  unlike: "unlike",
+  likes: "likes",
+  updislike: "updislike",
+  undislike: "undislike",
+  dislikes: "dislikes",
+};
+
+export default requests;
